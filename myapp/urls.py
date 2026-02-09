@@ -3,5 +3,7 @@ from myapp import views
 urlpatterns = [
     
     path("Registrations/",views.Registrations.as_view()),
-    path("Registrations/<int:idd>/",views.Registrations.as_view())
+    path("Registrations/<int:idd>/",views.Registrations.as_view()),
+    path("login/",views.LoginAPI.as_view()),
+    
 ]

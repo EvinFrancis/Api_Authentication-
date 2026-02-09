@@ -112,7 +112,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-AUTH_USER_MODEL="myapp.User"
+AUTH_USER_MODEL="myapp.User" # tells Django to use our custom User model instead of the default one
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/

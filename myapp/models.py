@@ -10,4 +10,4 @@ class User(AbstractUser):
     password=models.CharField(max_length=100)
     username=None
     USERNAME_FIELD="email"
-    REQUIRED_FIELDS=[]
+    REQUIRED_FIELDS=['name']
