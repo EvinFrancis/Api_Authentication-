@@ -5,5 +5,6 @@ urlpatterns = [
     path("Registrations/",views.Registrations.as_view()),
     path("Registrations/<int:idd>/",views.Registrations.as_view()),
     path("login/",views.LoginAPI.as_view()),
+    path("UserAPI/",views.UserAPI.as_view()),
     
 ]
